@@ -22,8 +22,7 @@ public class Calculator {
             System.out.println("3. Multiplication (*)");
             System.out.println("4. Division (/)");
             System.out.println("5. Exit");
-            System.out.print("Enter your choice (1-5): ");
-
+           
            
             int choice;
             try {
