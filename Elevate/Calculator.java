@@ -137,14 +137,7 @@ public class Calculator {
         return a * b;
     }
 
-    /**
-     * Performs division of two numbers.
-     * It assumes the caller has already handled the division-by-zero case.
-     *
-     * @param a The dividend.
-     * @param b The divisor.
-     * @return The quotient of a and b.
-     */
+   
     public static double divide(double a, double b) {
        
         return a / b;
