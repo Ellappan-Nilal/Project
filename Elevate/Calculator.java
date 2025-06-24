@@ -115,13 +115,7 @@ public class Calculator {
         return a + b;
     }
 
-    /**
-     * Performs subtraction of two numbers.
-     *
-     * @param a The first number (minuend).
-     * @param b The second number (subtrahend).
-     * @return The difference of a and b.
-     */
+    
     public static double subtract(double a, double b) {
         return a - b;
     }
