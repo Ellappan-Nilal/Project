@@ -126,13 +126,6 @@ public class Calculator {
         return a - b;
     }
 
-    /**
-     * Performs multiplication of two numbers.
-     *
-     * @param a The first number.
-     * @param b The second number.
-     * @return The product of a and b.
-     */
     public static double multiply(double a, double b) {
         return a * b;
     }
