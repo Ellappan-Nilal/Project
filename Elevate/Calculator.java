@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    /**
-     *     
-     * @param args Command line arguments (not used in this application).
-     */
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
