@@ -104,13 +104,7 @@ public class Calculator {
         scanner.close();
     }
 
-    /**
-     * Performs addition of two numbers.
-     *
-     * @param a The first number.
-     * @param b The second number.
-     * @return The sum of a and b.
-     */
+  
     public static double add(double a, double b) {
         return a + b;
     }
