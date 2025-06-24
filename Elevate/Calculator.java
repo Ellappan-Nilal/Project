@@ -91,7 +91,7 @@ public class Calculator {
                     break;
                 default:
                     
-                    System.out.println("An unexpected error occurred. .");
+                    System.out.println("An unexpected error occurred. Please try again.");
                     break;
             }
         }
