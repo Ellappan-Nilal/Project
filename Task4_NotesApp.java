@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class NotesApp {
+public class Task4_NotesApp {
 
     
     private static final String NOTES_FILE_NAME = "notes.txt";
