@@ -86,7 +86,7 @@ public class NotesApp {
                 notesFound = true;
             }
             if (!notesFound) {
-                System.out.println("No notes found yet. Add some notes!");
+                
             }
         } catch (IOException e) {
            
