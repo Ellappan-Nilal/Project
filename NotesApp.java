@@ -90,7 +90,7 @@ public class NotesApp {
             }
         } catch (IOException e) {
            
-           
+            System.err.println("Error reading notes from file: " + e.getMessage());
             System.out.println("It seems the notes file ('" + NOTES_FILE_NAME + "') does not exist or is inaccessible.");
             System.out.println("Add a note first to create the file.");
         }
