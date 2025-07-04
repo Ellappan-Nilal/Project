@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TodoApp extends JFrame {
+public class Task6_TodoApp extends JFrame {
 
     private JTextField taskInputField;
     private DefaultListModel<String> taskListModel;
@@ -11,7 +11,7 @@ public class TodoApp extends JFrame {
     private JButton addTaskButton;
     private JButton deleteTaskButton;
 
-    public TodoApp() {
+    public Task6_TodoApp() {
         // Set up the main frame
         setTitle("My To-Do List");
         setSize(400, 500); // Increased height for better visibility
@@ -70,7 +70,7 @@ public class TodoApp extends JFrame {
                     taskListModel.addElement(taskText);
                     taskInputField.setText(""); // Clear the input field
                 } else {
-                    JOptionPane.showMessageDialog(TodoApp.this,
+                    JOptionPane.showMessageDialog(Task6_TodoApp.this,
                             "Task cannot be empty!",
                             "Input Error",
                             JOptionPane.WARNING_MESSAGE);
@@ -86,7 +86,7 @@ public class TodoApp extends JFrame {
                 if (selectedIndex != -1) { // Check if an item is selected
                     taskListModel.remove(selectedIndex);
                 } else {
-                    JOptionPane.showMessageDialog(TodoApp.this,
+                    JOptionPane.showMessageDialog(Task6_TodoApp.this,
                             "Please select a task to delete.",
                             "Selection Error",
                             JOptionPane.WARNING_MESSAGE);
@@ -100,7 +100,7 @@ public class TodoApp extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new TodoApp().setVisible(true);
+                new Task6_TodoApp().setVisible(true);
             }
         });
     }
